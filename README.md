@@ -1,44 +1,86 @@
-# Predictive Analysis
+# Predictive Analysis for Demand Forecasting and Inventory Optimization
 
-This project analyzes historical product demand and explores demand forecasting plus inventory optimization using Jupyter notebooks.
+This project focuses on analyzing historical product demand data, building demand forecasting workflows, and applying inventory optimization techniques to support better supply chain decisions.
+
+The work is presented through Jupyter notebooks and combines data cleaning, exploratory analysis, machine learning, and linear programming based optimization.
+
+## Overview
+
+The main goal of this project is to use historical order demand data to:
+
+- understand demand patterns across products and warehouses
+- prepare data for predictive modeling
+- compare forecasting approaches
+- optimize inventory allocation and replenishment decisions
+- evaluate scenario and sensitivity changes in demand
+
+## Key Features
+
+- end-to-end demand data preprocessing
+- exploratory data analysis with trend and distribution plots
+- feature engineering for predictive modeling
+- model comparison using Linear Regression, Decision Tree, and Random Forest
+- inventory optimization using PuLP
+- sensitivity analysis for changing demand conditions
 
 ## Project Files
 
-- `PredictiveAnaOptimized.ipynb`: the cleaner, fully validated notebook for forecasting and optimization.
-- `PredictiveAnalysis.ipynb`: the original exploratory notebook with EDA, modeling, and optimization sections.
-- `Historical Product Demand.csv`: source dataset used by the notebooks.
-- `data_processed.csv`: processed dataset generated from the source data.
+- `PredictiveAnaOptimized.ipynb`  
+  Refined and validated notebook with forecasting and optimization workflow.
 
-## What The Project Does
+- `PredictiveAnalysis.ipynb`  
+  Original notebook covering exploratory analysis, model training, and optimization experiments.
 
-- cleans and profiles historical demand data
-- analyzes trends across products and warehouses
-- compares simple forecasting and ML models
-- solves inventory optimization problems using PuLP
-- performs scenario and sensitivity analysis
+- `Historical Product Demand.csv`  
+  Raw dataset used for the analysis.
+
+- `data_processed.csv`  
+  Processed dataset derived from the source file.
+
+## Tools and Libraries
+
+- Python
+- Jupyter Notebook
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- statsmodels
+- PuLP
 
 ## Setup
 
-Install dependencies:
+Clone the repository and install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Launch Jupyter:
+Launch Jupyter Notebook:
 
 ```bash
 jupyter notebook
 ```
 
-Then open either notebook in the project folder.
+Open either notebook from the project folder and run the cells in order.
 
-## Validation Status
+## Results Summary
 
-- `PredictiveAnaOptimized.ipynb` was executed successfully in this environment after installing `PuLP`.
-- `PredictiveAnalysis.ipynb` was checked and fixed for a missing `train_test_split` import in the model-training section.
+This project demonstrates how predictive analytics can be used to connect historical demand patterns with inventory planning decisions. The optimized notebook successfully runs through forecasting, optimization, and comparative evaluation workflows in the validated environment.
 
-## Notes
+## Validation
 
-- The CSV files are large, so pushing the repository to GitHub may take a little time.
-- If you want a lighter repository, you can keep only the notebooks and add the datasets separately later.
+- `PredictiveAnaOptimized.ipynb` was executed successfully during project verification.
+- `PredictiveAnalysis.ipynb` was reviewed and fixed so its workflow completes correctly.
+
+## Future Improvements
+
+- convert notebook logic into modular Python scripts
+- add clearer business assumptions for the optimization model
+- create a lightweight version without large dataset files
+- build a simple dashboard for results visualization
+
+## License
+
+This project is licensed under the MIT License.
