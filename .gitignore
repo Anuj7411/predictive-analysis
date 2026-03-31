@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+.jupyter_runtime/
+.jupyter_data/
+.jupyter_config/
+*.executed.ipynb
+__pycache__/
+*.pyc
