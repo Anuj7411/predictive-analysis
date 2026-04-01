@@ -1,5 +1,7 @@
 # Predictive Analysis for Demand Forecasting and Inventory Optimization
 
+![Project Preview](assets/project-preview.png)
+
 This project focuses on analyzing historical product demand data, building demand forecasting workflows, and applying inventory optimization techniques to support better supply chain decisions.
 
 The work is presented through Jupyter notebooks and combines data cleaning, exploratory analysis, machine learning, and linear programming based optimization.
